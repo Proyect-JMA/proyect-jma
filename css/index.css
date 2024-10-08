@@ -30,3 +30,13 @@
   width: 50px; /* Ajusta este valor para cambiar el tamaño de la imagen */
   height: auto;
 }
+
+.image-footer{
+  width: 150%;
+}
+
+@media (max-width: 768px) {
+  .image-footer {
+    width: 100%;
+  }
+}
